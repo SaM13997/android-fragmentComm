@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment1">
+
+    <TextView
+        android:id="@+id/fragment1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 1"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment1Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your name"
+        android:textColorHint="@color/white"
+        android:autofillHints="name"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:inputType="text"
+        android:id="@+id/fragment1EditText"/>
+    <Button
+        android:id="@+id/fragment1SubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment1EditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit"/>
+
+</RelativeLayout>
